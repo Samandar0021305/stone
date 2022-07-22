@@ -160,3 +160,26 @@ margin: 10px 0;
 .section__list h2 , p{
     color: #4D4D4D;
 }
+.hero{
+    background: url("../img/nature.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 400px;
+}
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero-box h2{
+    color: #C7AA8B;
+    font-size: 47px;
+
+}
+
+.hero-bg{
+    width: 60px;
+    height: 2px;
+    background: #C7AA8B;
+
+}
