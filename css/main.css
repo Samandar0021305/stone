@@ -169,6 +169,7 @@ margin: 10px 0;
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding: calc(400px - 200px) 0;
 }
 
 .hero-box h2{
@@ -181,5 +182,25 @@ margin: 10px 0;
     width: 60px;
     height: 2px;
     background: #C7AA8B;
+    margin-top: 20px;
+}
 
+.team-box{
+    display: flex;
+}
+.team-box img{
+    margin: 0 4px;
+}
+
+.team-list{
+    display: flex;
+    margin-bottom: 40px;
+}
+.team-list li{
+    margin: 0 10px
+}
+
+.intro{
+    background: #F7F7F7;
+    min-height: 386px;
 }
