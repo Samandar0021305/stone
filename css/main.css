@@ -249,4 +249,28 @@ color: #C7AA8B;
 
 .footer{
     background: #323232;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-item{
+    display: flex;
+}
+.footer-title{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.footer-text{
+    background: linear-gradient(0deg, rgba(77, 77, 77, 0.2), rgba(77, 77, 77, 0.2)),
+linear-gradient(0deg, #C7AA8B, #C7AA8B);
+
+padding: 10px 40px;
 }
